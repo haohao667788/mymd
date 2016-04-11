@@ -1,0 +1,13 @@
+.md-con {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background: yellow;
+}
+
+.preview-con {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background: red;
+}
