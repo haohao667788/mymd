@@ -7,9 +7,8 @@ let mainWindow;
 
 function createWindow() {
 
-  mainWindow = new BrowserWindow({width: 1000, height: 700});
-  mainWindow.loadURL('file://' + __dirname + '/public/build/index.html');
-  // mainWindow.webContents.openDevTools();
+  mainWindow = new BrowserWindow({width: 800, height: 600});
+  mainWindow.loadURL('file://' + __dirname + '/build/index/index.html');
   mainWindow.on('closed', function() {
     mainWindow = null;
   });
@@ -28,3 +27,4 @@ app.on('activate', function() {
     createWindow();
   }
 });
+
